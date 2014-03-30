@@ -1,0 +1,459 @@
+<script type="text/javascript" language="JavaScript">
+<!--
+// Code by ---------- Nikhil Nagpal --------------
+//Disable right mouse click Script
+function isEmpty(str)	
+{
+	var t = /\S/
+	return !t.test(str)
+}
+
+
+// Function called when form submits
+
+
+
+function disabletext(e){
+return false
+}
+
+function reEnable(){
+return true
+}
+
+//if the browser is IE4+
+document.onselectstart=new Function ("return false")
+
+//if the browser is NS6
+if (window.sidebar){
+document.onmousedown=disabletext
+document.onclick=reEnable
+}
+// Code finish 
+// By ----------- Nikhil -------------
+
+function checkform() 
+{
+//alert(document.form1.next.value);
+
+{
+
+	showalert=true
+
+	if(document.form1.radio1) {
+		if (document.form1.radio1.checked) 
+			showalert=false;
+		}
+
+	if(document.form1.radio2) {
+		if (document.form1.radio2.checked) 
+			showalert=false;
+		}
+	if(document.form1.radio3) {
+		if (document.form1.radio3.checked) 
+			showalert=false;
+		}
+	if(document.form1.radio4) {
+		if (document.form1.radio4.checked) 
+			showalert=false;
+		}
+	if(document.form1.radio5) {
+		if (document.form1.radio5.checked) 
+			showalert=false;
+		}
+	if(document.form1.radio6) {
+		if (document.form1.radio6.checked) 
+			showalert=false;
+		}
+	if(document.form1.radio7) {
+		if (document.form1.radio7.checked) 
+			showalert=false;
+		}
+	if(document.form1.radio8) {
+		if (document.form1.radio8.checked) 
+			showalert=false;
+		}
+
+	if(document.form1.check1) {
+		if (document.form1.check1.checked) 
+			showalert=false;
+		}
+
+	if(document.form1.check2) {
+		if (document.form1.check2.checked) 
+			showalert=false;
+		}
+
+	if(document.form1.check3) {
+		if (document.form1.check3.checked) 
+			showalert=false;
+		}
+
+	if(document.form1.check4) {
+		if (document.form1.check4.checked) 
+			showalert=false;
+		}
+
+	if(document.form1.check5) {
+		if (document.form1.check5.checked) 
+			showalert=false;
+		}
+
+	if(document.form1.check6) {
+		if (document.form1.check6.checked) 
+			showalert=false;
+		}
+
+	if(document.form1.check7) {
+		if (document.form1.check7.checked) 
+			showalert=false;
+		}
+
+	if(document.form1.check8) {
+		if (document.form1.check8.checked) 
+			showalert=false;
+		}
+
+
+	if(showalert==true) {
+	
+		alert('You will not have a chance to revisit this question.\n Please provide an answer before you proceed');
+		return false;
+	}
+}
+}
+-->
+</script>
+		
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>oDesk :.: The On Demand Global Workforce</title>
+<link rel="stylesheet" href="includes/basics.css" type="text/css">
+<link rel="stylesheet" href="includes/newnav_header.css" type="text/css">
+<link rel="stylesheet" href="includes/newnav_header1.css" type="text/css" />
+<script type="text/javascript" src="popup.js"></script>
+<meta http-equiv="content-type" content="text/html; charset=utf-8;" />
+
+<script language="javascript"> 
+    <!--
+    function qpreview(varuserid, varexamid, varqid, varatid) {
+        page = 'givequestionfeedback.asp?userid=' + varuserid + '&examid=' + varexamid + '&qid=' + varqid +'&atid='+ varatid;
+        window.open(page, "veetel", "width=650,height=400,status=yes,hotkeys=no,toolbar=no,scrollbars=yes,menubar=no")
+    }
+    -->
+</script>
+<script type="text/javascript">
+    function paneltoggle() {
+        document.getElementById('linkpanel').style.display = 'none';
+        document.getElementById('ifpanelbox').style.display = '';
+    }
+
+    function togglecomplete() {
+        document.getElementById('linkpanel').style.display = 'none';
+        document.getElementById('ifpanelbox').style.display = 'none';
+        document.getElementById('completemsg').style.display = '';
+    }
+
+    function togglecancel() {
+        document.getElementById('linkpanel').style.display = '';
+        document.getElementById('ifpanelbox').style.display = 'none';
+    }
+</script>
+
+</head>
+<script language="javascript" >
+<!--
+function feedpopup(passkey,passtext) 
+{
+    var uurrll = 'https://www.odesk.com/console/ticket.php?cat=API_TEST_ERR&sysinfo='+ passkey + '&comments='+ passtext
+    mywin=open(uurrll,"_oDeskTicket","width=700,height=750,toolbar=0,scrollbars=1,resizable=1")
+}
+-->
+</script>
+
+<body>
+
+<noscript>This page uses Javascript.<br />Your browser either doesn't support Javascript or you have it turned off.<br />To see this page as it is meant to appear please use a Javascript enabled browser.</noscript>
+
+<div id="stdErrorMsg"></div>
+<!-- HEADER -->
+
+  
+<div class="navblock" id="header">
+    <a href="http://www.odesk.com/tests" target="_blank">
+        <IMG id="logo" title="Outsource to Freelancers, IT Community, Programmers, Web Designers from India, Russia, USA, and more" 
+            height="35" 
+            alt="Outsource to Freelancers, IT Companies, Programmers, Web Designers from India, Russia, USA, and more" 
+            src="/includes/images/logo.gif" 
+            width=120 border="1">
+        </a> 
+        <p id="tagline">&nbsp;</p>
+</div>
+<div class="navblock" ><hr style="color:#DCDACE;height:3px;background-color:#DCDACE;border:0" /></div>
+
+
+  <!--/HEADER -->
+    <div id="subheader" style="height: 200px;"> 
+<table border="0" width="100%" ID="Table2" height="100%">
+  <tr>
+    <td valign="top">
+<table width="780" cellpadding="0" cellspacing="0" border="0" align="center">
+<tr>
+<td valign="top"><img src="IMAGES/clr.gif" width="70" height="1" /></td>
+<td valign="top">
+
+				<center><table  border=0 cellspacing=1 height=376 cellpadding=0 width="720px" class="maintable" valign="top">
+  
+  
+    <form name="form1"  action="odeskexamnojsx.asp"  method="post">
+  
+  
+  <tr><td  ><input type=hidden name=qtype value=R><input type=hidden name=nxtprvs value=><BR><table width=770px  border=0 ><tr><td><b>Item No:</b> 2 of 30</td><td align=right colspan=2 ><b>&nbsp;&nbsp;&nbsp; Time Remaining: 0:29:26 </b></td></table><TR><td colspan=3 bgcolor=#4D5457><img src=IMAGES/clr.gif width=1 height=1 /></td> </TR></td></tr><tr height=320><td   ><table border=0 width="100%" cellspacing=1 cellpadding=1 style="font-size:10pt"><tr><td align=left><b>&nbsp;Question:</b></td></tr><tr><td style="padding-left:4px" align=left>Which of the following is NOT a valid feature of Disk Management which is available under Control Panel=> Administrative Tools=> Computer Management in Windows 7?</td></tr></table><br><br><table border=0 cellspacing=5 width="100%" style="font-size:10pt"><tr  style="font-size:10pt" valign=top><td width=100% colspan='3' valign=top align=left><label for='radio1'><div style='width:4%;border:solid 0px red;float:left;margin-top:-1px'><input   type=radio id=radio1  name=radio value=a ></div><div style='width:3%;border:solid 0px red;float:left'><b>a.</b></div><div style='width:93%;border:solid 0px red;float:right'>It allows you to create a basic, spanned or striped partition directly from the menu.</div></label></td></tr><tr  valign=top style="font-size:10pt"><td width=100% colspan='3' valign=top align=left><label for='radio2'><div style='width:4%;border:solid 0px red;float:left;margin-top:-1px'><input type=radio  name=radio id=radio2  value=b ></div><div style='width:3%;border:solid 0px red;float:left'><b>b.</b></div><div style='width:93%;border:solid 0px red;float:right'>It allows you to extend and shrink partitions directly from the windows interface.</div></label></td></tr><tr  valign=top style="font-size:10pt"><td width=100% colspan='3' valign=top align=left><label for='radio3'><div style='width:4%;border:solid 0px red;float:left;margin-top:-1px'><input  type=radio  name=radio id=radio3  value=c ></div><div style='width:3%;border:solid 0px red;float:left'><b>c.</b></div><div style='width:93%;border:solid 0px red;float:right'>It allows you disk conversion options whereby you can convert the disk to dynamic partition style or to GUID partition table when you add more than four partitions to a basic disk.</div></label></td></tr><tr  valign=top style="font-size:10pt"><td width=100% colspan='3' valign=top align=left><label for='radio4'><div style='width:4%;border:solid 0px red;float:left;margin-top:-1px'><input type=radio   name=radio id=radio4  value=d ></div><div style='width:3%;border:solid 0px red;float:left'><b>d.</b></div><div style='width:93%;border:solid 0px red;float:right'>It allows you to schedule a task to run in response to an event.<br></div></label></td></tr><input type=hidden name=tak  value=non><input type="hidden" name="ii" value='L3kIM+avXdbISFKQ7hhq4DPzxFAkoRwgscFQgPOFC47BjPQntiYjTOVr9qbD8L6miW3scd/oTIHVWNfABoCHBqnstunUrpQR4dMxP9pQmd4Kz4g2wdFQyiOgPQe6L2RBYc5+vREhw1zjmTLiVZ8MVUXBiG4hd1jeghjywq8Ra0OByW/P6K/NOwOhZJK6nOtdjI94t2Eamf/zF2pUvyqQU7MEgG4myR0SrhmdzVKEznh51zHdJ7WchaAZx4eCHbZIAP9wTkEt64a9tZYACQ71dTFIsb34PnfHYqhuXumnhzcScyRyiQnDAlqlxcJJPbAqLT/uF7bZO4zrIpFl6XxrANEw/pIQ0lfrwJswZmyysirMIL6WHKtLStQEwe31rnW2w7iBg19N7si7t/+FUj71rbE0cVanxNypbROORGysw4nXzXN9g/c8frL58Ah0OBBfADxw4nxSQ5teGOn8uNkKPhEiVVuwt5CUpf2HrXRUlXrpbH7M1K4K5s2PDRFJJQtTjKw9xOOULcu4zLhmSpk/bZoQuy5tSrZ4wFVdFR7w4yQemGfgk0oFLvGAgni4ffqMMu8KhYwa9qbkVQLvmhwMEuNWLZBxodul0Jl49eRllUVIpOkoUS/fKOGllZps5RybcvURAekWL1tr1dpAkaoK33VnC2f98gHFFPMoGt1xVn0=' /></table><br></td></tr><tr><td><table  border=0 width=100% ><tr><td align=center width=30% valign=top>&nbsp;</td><td width=30% align=center valign=top><input class="inputButtonSmall"  type=submit  name=next value="Next" style="width:80px;font-weight:bold" onclick=" javascript:return checkform();" ></td>
+	    <td width=40%  align='center'>
+	        <a href='javascript:void(0);' onclick='paneltoggle()' id='linkpanel'>Report an issue with this question</a>
+            <iframe id='ifpanelbox' src="questionfeedbackform.asp?examid=7274&qid=197418&userid=2970220&atid=12555663" style='width:100%;height:310px;border:solid 1px black;display:none' frameborder='0'></iframe>
+            <p id='completemsg' style='display:none;color:#4896b7;font-size:12px'>Thanks for your feedback!</p>
+	    </td></tr></table>
+	    </font></center>
+
+</td></tr>
+</table>
+<td></td></tr></table>
+</div>
+
+<table height= 400px  border=0 width="100%"><tr><td>
+
+    <!-- FOOTER -->
+<table cellpadding="0" cellspacing="0" border="0" ID="Table1" width="100%">
+	<tr>
+		<td class="" nowrap width="100%" background="/images/btm_bg.gif">
+			<div id="">
+				<div id="footer">
+					<font size=2 >Powered by </font><img style="DISPLAY:inline; VERTICAL-ALIGN:middle" src="/images/expertrating.gif">&nbsp;<font size=2 > &reg;</font>
+				
+				<script type="text/javascript">
+                var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+                <script type="text/javascript">
+                try {
+                var pageTracker = _gat._getTracker("UA-918572-1");
+                pageTracker._trackPageview();
+                } catch(err) {}</script> 
+                
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+<!-- /FOOTER -->
+		
+							
+	</td></tr>
+
+
+	<!-- /BODY --> <!-- FOOTER -->
+		</table>
+	</body>
+</HTML>
+
+
+
+Traceback (most recent call last):
+  File "odesk.py", line 781, in loadTest
+    self.bot.testObject = self.bot.getTest()
+  File "odesk.py", line 417, in getTest
+    self.testObject.questionAnswers = self.getQuestion()
+  File "odesk.py", line 493, in getQuestion
+    testRequestUrl = testForm['action']
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+
+
+
+
+    questionInfo = self.bot.getQuestion()
+  File "odesk.py", line 508, in getQuestion
+    pageResponse = urllib2.urlopen(pageRequest)
+  File "C:\Python27\lib\urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 422, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1222, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1184, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 11004] getaddrinfo failed>
+
+
+
+
+Traceback (most recent call last):
+  File "odesk.py", line 857, in loadTest
+    self.bot.testObject = self.bot.getTest()
+  File "odesk.py", line 417, in getTest
+    self.testObject.questionAnswers = self.getQuestion()
+  File "odesk.py", line 493, in getQuestion
+    testRequestUrl = testForm['action']
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+
+[Magento Test]
+Traceback (most recent call last):
+  File "odesk.py", line 939, in loadTest
+    self.bot.testObject = self.bot.getTest()
+  File "odesk.py", line 422, in getTest
+    self.testObject.questionAnswers = self.getQuestion()
+  File "odesk.py", line 499, in getQuestion
+    testRequestUrl = testForm['action']
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+Traceback (most recent call last):
+  File "odesk.py", line 858, in loadTest
+    self.bot.testObject = self.bot.getTest()
+  File "odesk.py", line 417, in getTest
+    self.testObject.questionAnswers = self.getQuestion()
+  File "odesk.py", line 493, in getQuestion
+    testRequestUrl = testForm['action']
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+
+Game Programming Concepts
+which one of the following languages can easily be embedded into a game engine?
+[Issue: No options visible]
+
+
+
+
+
+Error executing query 'insert into questions (testId, question, answer) values ('-1', 'refer to the given image.which option will you select to linearize a pdf file?', 'None')' - (1452, 'Cannot add or update a child row: a foreign key constraint fails (`odesktestpapers`.`questions`, CONSTRAINT `questions_ibfk_1` FOREIGN KEY (`testId`) REFERENCES `tests` (`testId`))')
+
+Error executing query 'insert into questions (testId, question, answer) values ('-1', 'state it true or false:you can move from one cell to another by pressing tab in a table.', 'None')' - (1452, 'Cannot add or update a child row: a foreign key constraint fails (`odesktestpapers`.`questions`, CONSTRAINT `questions_ibfk_1` FOREIGN KEY (`testId`) REFERENCES `tests` (`testId`))')
+
+Error executing query 'insert into questions (testId, question, answer) values ('-1', 'refer to the given image.which option significantly decreases the size of a publication when applied to a corel ventura workspace?', 'None')' - (1452, 'Cannot add or update a child row: a foreign key constraint fails (`odesktestpapers`.`questions`, CONSTRAINT `questions_ibfk_1` FOREIGN KEY (`testId`) REFERENCES `tests` (`testId`))')
+
+
+[Apache Server Test (2.0 Family)]
+Error executing query 'insert into questions (testId, question, answer) values ('-1', 'what is the default filename in the accessfilename directive in the apache config file?', 'None')' - (1452, 'Cannot add or update a child row: a foreign key constraint fails (`odesktestpapers`.`questions`, CONSTRAINT `questions_ibfk_1` FOREIGN KEY (`testId`) REFERENCES `tests` (`testId`))')
+
+Error executing query 'insert into questions (testId, question, answer) values ('-1', 'which are the two types of user authentication options available in the authtype directive?', 'None')' - (1452, 'Cannot add or update a child row: a foreign key constraint fails (`odesktestpapers`.`questions`, CONSTRAINT `questions_ibfk_1` FOREIGN KEY (`testId`) REFERENCES `tests` (`testId`))')
+
+
+
+
+Traceback (most recent call last):
+  File "odesk.py", line 884, in submitAnswer
+    self.submitAnswer()
+  File "odesk.py", line 884, in submitAnswer
+    self.submitAnswer()
+  File "odesk.py", line 884, in submitAnswer
+    self.submitAnswer()
+  File "odesk.py", line 863, in submitAnswer
+    questionInfo = self.bot.getNextQuestion(self.questionInfo)
+  File "odesk.py", line 613, in getNextQuestion
+    questionDataList = self._parseQuestionPage(questionText)
+  File "odesk.py", line 529, in _parseQuestionPage
+    questionNum = questionNumDiv.getText()
+AttributeError: 'NoneType' object has no attribute 'getText'
+Traceback (most recent call last):
+  File "odesk.py", line 863, in submitAnswer
+    questionInfo = self.bot.getNextQuestion(self.questionInfo)
+  File "odesk.py", line 582, in getNextQuestion
+    submitUrl = form["action"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+
+
+"""
+    odbot = OdeskBot()
+    #odbot.login("supmit", "spmprx13")
+    odbot.login("lysander_stark", "spmprx13")
+    #odbot.login("sherlock_holmes6", "spmprx13")
+    #odbot.login("lysander_stark", "spmprx13")
+    testLink = odbot.getTestLink()
+    if not testLink:
+        sys.exit()
+    testsPageContent = odbot.getPage(testLink)
+    allTests = odbot.getAllTests()
+    #f = open("alltests_lysander.html", "w")
+    for test in odbot.allTests.keys():
+        print test + " =====================>>>> " + odbot.allTests[test] + "\n"
+        #f.write(test + " =====================>>>> " + odbot.allTests[test] + "\n")
+    #f.close()
+    """
+
+
+
+Traceback (most recent call last):
+  File "odesk.py", line 994, in loadTest
+    self.bot.testObject.questionAnswers[questionInfo[1]] = [ questionInfo[2], questionInfo[3][1], questionInfo[3][0]]
+IndexError: list index out of range
+
+iOS Programming
+
+
+
+
+Traceback (most recent call last):
+  File "odesk.py", line 994, in loadTest
+    self.bot.testObject.questionAnswers[questionInfo[1]] = [ questionInfo[2], questionInfo[3][1], questionInfo[3][0]]
+TypeError: list indices must be integers, not unicode
+
+LAMP Test
+
+
+
+Traceback (most recent call last):
+  File "odesk.py", line 995, in loadTest
+    self.bot.testObject.questionAnswers[questionInfo[1]] = [ questionInfo[2], questionInfo[3][1], questionInfo[3][0]]
+IndexError: list index out of range
+
+Ruby on Rails
+
+
+Traceback (most recent call last):
+  File "odesk.py", line 995, in loadTest
+    self.bot.testObject.questionAnswers[questionInfo[1]] = [ questionInfo[2], questionInfo[3][1], questionInfo[3][0]]
+TypeError: list indices must be integers, not unicode
+
+MS Powerpoint
+
+
+
+
+Traceback (most recent call last):
+  File "odesk.py", line 988, in loadTest
+    questionInfo = self.bot.getQuestion()
+  File "odesk.py", line 517, in getQuestion
+    pageResponse = urllib2.urlopen(pageRequest)
+  File "C:\Python27\lib\urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 422, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1222, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1184, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+
+
+US English
+
+
+
+Test formats that are not handled yet:
+---------------------------------------
+
+https://www.odesk.com/tests/994?pos=203  (Jquery test)
+https://www.odesk.com/tests/981?pos=236  (Python test)
+

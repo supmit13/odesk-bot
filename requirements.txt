@@ -1,0 +1,360 @@
+Expert Bot Developer - Long Term (3+ years contract)
+Hourly - Est. Time More than 6 months, Full-time - 30+ hrs/week - Posted 1 day ago - View Job Posting
+
+Intermediate ($$) - I am looking for a mix of experience and value
+
+=========================================================================================================================================
+
+Hi, Let's skype: eyashwant
+
+Please email me the bot you already did or video of it, as sample, before coming to Skype.
+=========================================================================================================================================
+
+
+Me
+Mar 04
+Hi Karnika,
+
+You will find the sample bot as an attachment with my earlier message (cover letter of my bid request). The name of the attached file was StoryPoster_v2.zip. This is a bot that does a lot of things - it handles registration of an user on a Pligg CMS based website by supplying the correct/appropriate field values on the registration form, logging into the mailbox whose email address was provided during the registration process, opening the activation email from the Pligg CMS based website and clicking on the activation link, spinning a story randomly using a splinable text, posting the story on the Pligg CMS based website after logging into it, and finally trying to cast votes for the stories that the bot had posted on earlier ocassions. I am attaching the zipped copy of the project along with this message too. 
+
+Additionally, you would be able to find the project on code.google.com at the following link: https://code.google.com/p/pligg-article-poster/
+
+I am adding you on skype to discuss this project. My skype id is supmit.
+
+Thanks,
+Supriyo
+StoryPoster_v2.zip (2742KB)
+
+
+=========================================================================================================================================
+Karnika Yashwant
+Mar 04
+WHat is your Skype?
+Add me in Skype: eyashwant
+
+=========================================================================================================================================
+
+Me
+Mar 04
+My skype id supmit. I have already added you.(eyashwant).
+
+Thanks,
+Supriyo
+
+
+=========================================================================================================================================
+
+
+oDesk Bot has 5 Major Functions:
+
+1) Account Creation
+2) Profile Completion/Editing
+3) Tests Completion
+4) Bidding
+5) Reminders
+
+1) Account Creation
+	- If captha is there, fill it and complete account creation
+	- Email Confiration (we have setup all emails of webmails to go to a common gmail account, so all confirmation goes there)
+	- Database of accounts created (in excel or db format, it can provide all accounts with all details)
+	- The database should be usable with other functions of the oDesk bot
+2) Profile Completion/Editing
+	- Fill the following (quantity depends - usually one)
+		- Description
+		- Èducation
+		- Employment History
+		- English Self Rating
+		- Profile Access (Public)
+		- Profile Title, etc.
+		- Portfolio
+		- Video
+	- Already filled, we need to be able to edit or add (description is edit, education can be add or edit)
+3) Tests Completion
+	- List of tests to select from
+	- Each test has its own excel/database with questions/answers which is created when we first do the test manually within the bot, answers are stored with score of the test (as quality of database)
+	- Each test if it is in database, it will answer and go to next, but if it is not there, it will give sound or blink for us to answer it and when we answer, it adds it to database
+	- So this way, over time full question database will be with us
+	- Multi threading of "Different account, same test" or "same account, different test" can be set, so only window appears for us, when a test is not in database. If it is there, it does it all by itself
+	- Random time (within 1 min) it can choose if RANDOM TIME option is selected, then it can for every question, take a random time to submit. BUT, it will choose answer and wait to submit, if answer is not in database, it will beep, get answer, then wait to submit. So time does not lapse
+	- Question Order, Answer choise order may be jumbbled, it will manag
+	- Time between answers, if not random, can be set by us as well, within lapse time of 1 min
+	- No Submit Option - If a database of answers are having bad scores, this option will be used to reanswer the questions, so it will choose answer, but not submit - we will submit or edit and submit. Based on scrore, best scoring set of answers will be saved to database
+	- Is there a way to make this database be common to people who are using this software? Like 2-3 staffs? But internally in our own server? Without conflicts? Or is it manual? 
+	- Make Mistakes - If we get 100% correct, we may set 2% error ratio, where it will choose 2% wrong answers. What ever % we set, it will get so many wrong answers even if it is correct in database.
+4) Bidding
+	- Job selection criteria canbe choosen from within the bot
+	- Since many bidders will use it in team, a common server maintained list of different jobs to which we applied has to be maintained. So they don't bid on same twice.
+	- Scrapping fields for job post customization (like title, project average budget, budget, total spent, etc. criteria to fill within the job post in place holders like [title], etc.
+	- We can set number of time we can bid to same job and then it can allow duplicate bids on some criteria like: Same Agency Account or Different Agency Account (so based on that, it will show to them), and based on criteria as well (only to top rated projects, etc.)
+5) Reminders
+	- Send reminders to messages/job applications (based on template we fill)
+	- Send regular reminders as scheduled in the bot with templates we feed
+
+
+Common Features:
+	- Multi threading to speedup the process
+ 	- Windows 7/8 & Ubuntu 12/13 it has to work
+	- Database has to be in sync, so it makes it easy for all bots to access (a linux server with mysql can be provided for all instances of bots to access and update at same time)
+
+Priority of delivery of each: 3, 4, 2, 1, 5
+
+This is the basic requirements document. Please ask me questions to detail this or if you find any operational difficulty, to sort it as well. Also, other basic features you see essential, you can add it.
+=========================================================================================================================================
+
+Here is the transcript of the skype interview I had with him:
+-------------------------------------------------------------
+
+[04-03-2014 21:39:50] Karnika Yashwant: Yes
+[04-03-2014 21:40:40] supmit: Hi
+[04-03-2014 21:41:34] Karnika Yashwant: Yes
+[04-03-2014 21:42:45] supmit: I am supriyo... I bid on your project on odesk
+[04-03-2014 21:43:11] Karnika Yashwant: Yes.
+[04-03-2014 21:43:16] Karnika Yashwant: Tell me about your bot experience
+[04-03-2014 21:44:02] supmit: I have done a lot of bots, mostly in perl or python... some in php too
+[04-03-2014 21:44:35] Karnika Yashwant: Do you do simple bots or hardbots?
+[04-03-2014 21:45:01] supmit: websites I have scrapped/crawled so far include gmail, facebook, linkedin, costco.com, safeway.com, walmart.com, etc
+[04-03-2014 21:45:17] supmit: what do you mean by hardbots?
+[04-03-2014 21:49:04] supmit: ?
+[04-03-2014 21:53:50] supmit: hi, are you there?
+[04-03-2014 22:17:24] supmit: hello!!!
+[04-03-2014 22:59:24] Karnika Yashwant: I am here
+[04-03-2014 22:59:26] Karnika Yashwant: https://www.dropbox.com/s/e6hvfbiho56vf4z/oDesk%20Bot%20Details.txt
+[04-03-2014 22:59:28] Karnika Yashwant: Can you do this?
+[04-03-2014 23:00:01] supmit: let me check
+[04-03-2014 23:12:29] supmit: I have a question....
+[04-03-2014 23:13:57] supmit: would there be any criteria based on which the list of tests to select from will be shown to the user?
+[04-03-2014 23:15:02] supmit: Like, if a users strengths/skillset is perl/python, then the user will be shown all tests on perl and python only....
+[04-03-2014 23:16:54] supmit: users whose strengths are C/C++ will be shown tests pertaining to C and C++ only...
+[04-03-2014 23:17:29] supmit: will it be something like that?
+[04-03-2014 23:18:24] supmit: There is one more question and I will come to that once this point is clear to me.
+[00:16:28] supmit: Hi...
+[00:18:19] Karnika Yashwant: Hi
+[00:18:39] Karnika Yashwant: No. Not anything like that. Just scrape full list from odesk, show that full list to select from
+[00:19:03] supmit: ok, so for every user the list will be the  same
+[00:21:53] supmit: Now, how will the user choose the skills? Will the UI be  a web UI or a desktop UI? For example, in the case of a desktop UI, there can be checkboxes beside every skill, and the user may select the checkboxes that are appropriate  for her/him.
+[00:22:56] supmit: Is that something like what you have in mind?
+[00:23:15] Karnika Yashwant: This is for which part of app?
+[00:24:07] supmit: The part that enables user to select the tests that are to be taken on her/his behalf by the bot
+[00:25:21] Karnika Yashwant: Give Dropdown list of test, which has all test. Simple
+[00:25:26] Karnika Yashwant: Give your odesk profile ID
+[00:26:39] supmit: ok, that is fine... the dropdown will support multiple selections at the same time.
+[00:27:18] Karnika Yashwant: I do not need skill selection. Just all in one dropdown
+[00:28:05] supmit: But that would list all the tests available on odesk
+[00:28:55] Karnika Yashwant: Yes.
+[00:28:55] supmit: do you mean to say that the bot will handle all the tests in due course of time?
+[00:28:59] supmit: ok
+[00:29:00] Karnika Yashwant: Yes.
+[00:31:52] supmit: ok, then as for the UI, what type of UI do you want? Can it  be a web UI (where the app runs in a web browser, or should it be a desktop UI (made using WxPython or TkInter)?
+[00:42:27] Karnika Yashwant: Which is better?
+[00:42:45] Karnika Yashwant: Browser needs to be there within the UI for Posting bot right? So how wil web browser work?
+[00:42:52] Karnika Yashwant: Or web browser is more easy?
+[00:44:16] supmit: Hmmm... no actually, I am thinking of posting as a background process...
+[00:44:28] supmit: What I am thinking of is....
+[00:45:15] supmit: there will be an initial desktop UI, in which user can key in the inputs required...
+[00:46:14] supmit: then, the bot starts taking the tests (highest priority - point #3)...
+[00:47:24] supmit: if it doesn't know/find the answer to a question, it provides the user with a small window (sub-window actually), where user can key in the answer....
+[00:47:57] Karnika Yashwant: No, it shows the same page to them, as it is radiobutton for them to selsetc
+[00:48:41] supmit: You mean to say that all the questions will be listed in the same page?
+[00:49:05] Karnika Yashwant: No...
+[00:49:18] supmit: with radio buttons beside each of the answer options?
+[00:49:21] Karnika Yashwant: It needs to show that ONE question with choises for user to choose
+[00:49:56] supmit: Exactly, that is what I was saying at first....
+[00:50:14] supmit: it shows one question and the available choices to the user...
+[00:50:51] supmit: user selects one choice, and the small window now shows the next question and its chpoices
+[00:51:00] Karnika Yashwant: Yes
+[00:51:01] Karnika Yashwant: Correct
+[00:52:13] supmit: so between the pair of consecutive questions, we can have a 'next' button, that makes the window 'know' that the user is done with the question that is displayed  now..
+[00:52:40] supmit: and now it needs to show the next question and its choices to the user
+[00:52:57] supmit: would that be ok?
+[00:58:15] Karnika Yashwant: That is OKAY if question is NOT in database.
+[00:58:21] Karnika Yashwant: If it is in database, it fills and moves automatic
+[00:58:57] supmit: right... that is fine
+[00:59:41] supmit: ok, then let me see what else I have ....
+[01:00:40] supmit: for questions whose answers are already in the database, is there a need to show them to the user?
+[01:01:22] supmit: I think the bot can easily handle them without the user knowing anythng about them
+[01:03:28] Karnika Yashwant: Not need to show.
+[01:03:38] Karnika Yashwant: Unless NO SUBMIT option is selecetd
+[01:03:39] Karnika Yashwant: Yes...
+[01:03:46] Karnika Yashwant: Multi threading is needed
+[01:04:28] supmit: Well, I think we need to have a 'reanswer' flag, which, if set, will allow the questions and answer choices to be shown to the user even if there is  an answer to it in the database
+[01:05:09] Karnika Yashwant: Yes.
+[01:05:12] Karnika Yashwant: Correct
+[01:05:15] supmit: This flag will be useful for a DB of bad score answers
+[01:05:18] Karnika Yashwant: What is your odesk URL?
+[01:05:22] Karnika Yashwant: Correct
+[01:06:32] supmit: https://www.odesk.com/users/~0124c28cf465de6644
+[01:09:06] Karnika Yashwant: Ok, anymore questions?
+[01:09:47] supmit: As for inserting an error component (to make the tests look realistic), we can have a input and/or config param that specifies a number (may be between 1 and 5) ... the program will use it to make that percent of mistakes... that should be fine?
+[01:10:40] Karnika Yashwant: Yes. That is what I mentioned right?
+[01:10:50] Karnika Yashwant: Make it 1-100
+[01:11:24] supmit: 1-100? you mean it would be possible to make 100% error?
+[01:11:39] Karnika Yashwant: Just an option.
+[01:11:40] Karnika Yashwant: Thats all
+[01:11:44] Karnika Yashwant: As coding work is going to be same.
+[01:11:44] Karnika Yashwant: Logic
+[01:11:45] supmit: ok, fine.
+[01:11:49] supmit: Well, for now  that is all. I might have some more once I make some advances in implementation
+[01:12:11] Karnika Yashwant: Understood Account Creation, Bidding, and all ohters?
+[01:12:23] Karnika Yashwant: Priority No.1 is test bot.
+[01:12:28] Karnika Yashwant: How soon will that be ready?
+[01:12:29] supmit: yes, that is fine....
+[01:12:34] Karnika Yashwant: I want to complete this bot, move to next.
+[01:12:38] Karnika Yashwant: So much to do.
+[01:13:05] supmit: I will handle that ... testbot will be my first area of implementation
+[01:13:30] supmit: when do you want to hire me?
+[01:13:55] supmit: I can start as soon as I am hired
+[01:14:13] Karnika Yashwant: WHat is cost?
+[01:14:18] Karnika Yashwant: And how soon you will deliver?
+[01:14:23] Karnika Yashwant: Tell me cost of this entire bot.
+[01:14:25] Karnika Yashwant: Not just one part of it
+[01:14:58] supmit: For the total part, I think I would be able to do in25 days...
+[01:15:12] supmit: might take 2/3 more or less.
+[01:15:47] supmit: What will take time is testing with all the random time intervals inserted in the flow
+[01:16:22] Karnika Yashwant: THat is too long.
+[01:16:59] supmit: I know, but the task is going to take time  as the testing phase will have trial and error
+[01:17:18] supmit: once a run is made, there might be some problems...
+[01:17:35] supmit: you rectify it and run again, there might be somethking else...
+[01:17:51] supmit: not to mention the random time intervals in between
+[01:18:17] Karnika Yashwant: So cost?
+[01:18:28] supmit: As such, development phase will be possibly 8 -  10 days...
+[01:18:44] supmit: would 700 USD be ok?
+[01:19:00] supmit: you suggest
+[01:19:08] Karnika Yashwant: For 50 bots, I am going to work, it will be way too much
+[01:19:14] Karnika Yashwant: Per bot, price should be good
+[01:19:32] Karnika Yashwant: I can sign a written contratc of taking you full time or something, when you prove in 1st bot...for all bots
+[01:19:39] supmit: ok, but you want to make 50  odesk bots??
+[01:19:42] Karnika Yashwant: Or if price works, I can even hire you full time.
+[01:19:44] Karnika Yashwant: No...
+[01:19:47] Karnika Yashwant: 50 different bots :)
+[01:20:08] supmit: ok, like one for odesk, one for elance... like that?
+[01:21:01] supmit: ok, but I think 700 would be appropriate... there is a lot of workk tooo....
+[01:21:56] Karnika Yashwant: [01:20] supmit: 
+
+<<< ok, like one for odesk, one for elance... like that?That is one type...but still, more such different things are there. Internal office stuff, many non freelance things
+[01:22:04] supmit: no, I don't want full time now... may be if you find me ok after first bot, you may consider me for full time... thats your call
+[01:22:20] Karnika Yashwant: Sure...But give me good price as $700 is higher than all other offer I got
+[01:22:42] supmit: ok.... please suggest...
+[01:22:52] supmit: 500?
+[01:23:12] Karnika Yashwant: When will test bot be given? Just test section of it?
+[01:23:28] Karnika Yashwant: 1-2 days?
+[01:23:36] Karnika Yashwant: Test is easiest part of it
+[01:23:52] supmit: nope... that will be too tight... give me 4 days
+[01:24:20] supmit: and I will give you the tested test part
+[01:24:30] Karnika Yashwant: Can I see how UI will be?
+[01:24:36] Karnika Yashwant: Sample screenshot of your other bots?
+[01:24:41] Karnika Yashwant: Will it work in both ubuntu and windows?
+[01:24:44] Karnika Yashwant: or web based?
+[01:25:08] supmit: right now? ok I will show you one bot I was developing a little while back... but that was for a different purpose
+[01:25:20] supmit: it has a WxPython UI
+[01:25:31] supmit: let me share my screen
+[01:25:49] Karnika Yashwant: Ok
+[01:26:32] supmit: I think I need to call you to share my screen...
+[01:26:39] supmit: calling you in a moment
+[01:28:04] *** Call to Karnika Yashwant ***
+[01:30:32] Karnika Yashwant: share screen please
+[01:32:29] Karnika Yashwant: That app is very easy app...but you will be able to handle this?
+[01:32:44] Karnika Yashwant: And this will store data in database or excel or text or how?
+[01:42:13] *** Call ended, duration 14:08 ***
+[01:42:50] Karnika Yashwant: Mobile number pleease?
+[01:43:13] supmit: just one thing... please set the hire info on odesk... cell no is 9711998537
+[01:43:27] Karnika Yashwant: ok, after a call i am in
+[01:43:34] Karnika Yashwant: payment via bank is okay right?
+[01:43:42] supmit: yes
+[01:43:50] Karnika Yashwant: just a contract in odesk for formality purpose?
+[01:43:56] supmit: right
+[01:44:02] Karnika Yashwant: ok, wait
+[01:47:13] Karnika Yashwant: You dont seem to be there in any job post?
+[01:47:19] Karnika Yashwant: Where are you
+[01:47:29] Karnika Yashwant: Which job post, under what name?
+[01:47:45] supmit: I am registered as  supmit
+[01:49:02] supmit: your post was named "Expert Bot Developer - Long Term (3+ years contract)"
+[01:49:23] supmit: I bid in that
+[01:50:22] supmit: did you get?
+[01:50:34] Karnika Yashwant: Ya
+[01:50:41] supmit: ok
+[01:51:05] Karnika Yashwant: Please make sure you deliver perfectly!
+[01:51:15] Karnika Yashwant: And if there are problems, let me konw in advance.
+[01:51:41] supmit: sure....
+[01:51:42] Karnika Yashwant: Anyways, done
+[01:52:11] supmit: thats why i want to meet tomorrow, so that in case of any issue you would know in advance
+[01:52:20] Karnika Yashwant: Yes. Please.
+[01:52:35] Karnika Yashwant: Even if you cannot do this, that is okay, we can work out on some other bot, if relationship is still there good.
+[01:52:45] Karnika Yashwant: So be transparent, lets work longer on many things
+[01:53:06] supmit: i understand that... but I think I will make it :)
+[01:53:18] Karnika Yashwant: you think...? lol. dont scare me. haha
+[01:53:59] supmit: well, I am certain about some thoughts :)
+[01:54:04] supmit: ok, i will quit now...
+[01:54:07] Karnika Yashwant: OK, good night
+[01:54:11] Karnika Yashwant: Look forward to talk tmr
+[01:54:22] supmit: sure
+[01:54:39] supmit: till then, bye!
+[01:54:55] Karnika Yashwant: you too
+[01:57:25] supmit: hi, can you please check if you have received my acceptance of your offer?
+[01:58:16] Karnika Yashwant: anyways, that is formality, its okay
+[01:58:57] supmit: right, but it is accepted.. checked just now... thanks
+[01:59:04] Karnika Yashwant: great
+
+
+
+Cookie:visitor_id=122.177.194.224.1374166802757526; optimizelyEndUserId=oeu1374166808147r0.8070591953583062; leaving_odesk_auto=1; fbm_121633185800=base_domain=.odesk.com; reportsAction=main; acced226248=184459; __g_u=143640724922061_5_0.05_1_5_1392702154466_0; DA[supmit]=3f5af05c4f8ebd3a36b41de489c0f6b6%2C0%2Cv7; sessionId=1393312180386; optimizelyCustomEvents=%7B%22oeu1374166808147r0.8070591953583062%22%3A%5B%22clicked_home_page_%5C%22log_in%5C%22%22%2C%22click_on_login%22%5D%7D; __g_c=a%3A0; applications_isMe=1; emailVerifiedNotification=1; emailVerified=1; mp_380f5e6a64db093fe56e1b33776a5afa_mixpanel=%7B%22distinct_id%22%3A%20%22122.177.194.224.1374166802757526%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22recognized%22%3A%20%22yes%22%2C%22Session%20%23%22%3A%202%2C%22Optimizely%20CO-FSU-Client%20Escape%20Link%20Direct%20Flow%22%3A%20%22w%2F%20Client%20Escape%22%7D; _mkto_trk=id:480-VRE-588&token:_mch-odesk.com-1393312182355-95825; __ar_v4=U5TO3O55FJEOTMQ6LLRG7H%3A20140227%3A3%7CCQEDEVZYOFD3LDY3DA4C2E%3A20140227%3A3%7CBH4WDBCWWJASRDFSPJ6ED5%3A20140227%3A3; console_user=supmit; recognized=1; qt_visitor_id=208.93.141.42.1341950825729761; optimizelySegments=%7B%22204509906%22%3A%22false%22%2C%22204862826%22%3A%22gc%22%2C%22204944106%22%3A%22referral%22%2C%22208084609%22%3A%22none%22%2C%22213359307%22%3A%22true%22%2C%22238599176%22%3A%22true%22%7D; optimizelyBuckets=%7B%22660620580%22%3A%22653241120%22%7D; __utma=91525829.1716294656.1374166828.1394055855.1394092491.579; __utmb=91525829.17.10.1394092491; __utmc=91525829; __utmz=91525829.1394042140.576.2.utmcsr=in-mg61.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch; session_id=2532b799b290d7d750b0eb95a3167583; company_last_accessed=d226248; last_accessed_app=findWorkHome
+
+"""
+    Cookie extractor method to get cookie values from the HTTP response objects. (class method).
+    """
+    def _getCookieFromResponse(self, lastHttpResponse):
+        lastResponseHeaders = lastHttpResponse.info()
+        responseCookies = lastResponseHeaders.getheaders("Set-Cookie")
+        pathCommaPattern = re.compile(r"path=/;", re.IGNORECASE)
+        domainPattern = re.compile(r"Domain=.odesk.com", re.IGNORECASE)
+        expiresPattern = re.compile(r"Expires=[^;]+;", re.IGNORECASE)
+        if responseCookies.__len__() > 1:
+            for cookie in responseCookies:
+                cookieParts = cookie.split("path=/;")
+                cookieParts[0] = re.sub(domainPattern, "", cookieParts[0])
+                cookieParts[0] = re.sub(expiresPattern, "", cookieParts[0])
+                while re.search(re.compile(r";[^\w]+;", re.MULTILINE | re.DOTALL), cookieParts[0]):
+                    cookieParts[0] = re.sub(re.compile(r";[^\w]+;", re.MULTILINE | re.DOTALL), ";", cookieParts[0])
+                cookieParts[0] = re.sub(re.compile(r";\s*$"), "", cookieParts[0])
+                cookieName, cookieValue = cookieParts[0].split("=")
+                self.cookiesDict[cookieName] = cookieValue
+        else:
+            cookieParts = responseCookies[0].split("path=/;")
+            cookieParts[0] = re.sub(domainPattern, "", cookieParts[0])
+            cookieParts[0] = re.sub(expiresPattern, "", cookieParts[0])
+            cookieName, cookieValue = cookieParts[0].split("=")
+            self.cookiesDict[cookieName] = cookieValue
+        cookies = ""
+        for cookie in self.cookiesDict.keys():
+            cookies += "; " + cookie + "=" + self.cookiesDict[cookie]
+        cookies = re.sub(re.compile(r"^;", re.MULTILINE | re.DOTALL), "", cookies)
+        cookies = re.sub(re.compile(r"^\s+", re.MULTILINE | re.DOTALL), "", cookies)
+        cookies = re.sub(self.__class__.multipleWhitespacePattern, " ", cookies)
+        return(cookies)
+    
+
+    https://www.odesk.com/tests
+ session_id=4e21d9168da59d823859deb7fe8ad774;  company_last_accessed=d226248;  last_accessed_app=findWorkHome; company_last_accessed=d226248; company_id=deleted; session_id=4e21d9168da59d823859deb7fe8ad774; last_accessed_app=findWorkHome
+Could not access the website content of: 'https://www.odesk.com/tests'...
+
+    
+
+
+
+Cookie:visitor_id=122.177.194.224.1374166802757526; optimizelyEndUserId=oeu1374166808147r0.8070591953583062; leaving_odesk_auto=1; fbm_121633185800=base_domain=.odesk.com; reportsAction=main; acced226248=184459; __g_u=143640724922061_5_0.05_1_5_1392702154466_0; DA[supmit]=3f5af05c4f8ebd3a36b41de489c0f6b6%2C0%2Cv7; sessionId=1393312180386; optimizelyCustomEvents=%7B%22oeu1374166808147r0.8070591953583062%22%3A%5B%22clicked_home_page_%5C%22log_in%5C%22%22%2C%22click_on_login%22%5D%7D; __g_c=a%3A0; applications_isMe=1; emailVerifiedNotification=1; emailVerified=1; mp_380f5e6a64db093fe56e1b33776a5afa_mixpanel=%7B%22distinct_id%22%3A%20%22122.177.194.224.1374166802757526%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22recognized%22%3A%20%22yes%22%2C%22Session%20%23%22%3A%202%2C%22Optimizely%20CO-FSU-Client%20Escape%20Link%20Direct%20Flow%22%3A%20%22w%2F%20Client%20Escape%22%7D; _mkto_trk=id:480-VRE-588&token:_mch-odesk.com-1393312182355-95825; __ar_v4=U5TO3O55FJEOTMQ6LLRG7H%3A20140227%3A3%7CCQEDEVZYOFD3LDY3DA4C2E%3A20140227%3A3%7CBH4WDBCWWJASRDFSPJ6ED5%3A20140227%3A3; console_user=supmit; recognized=1; qt_visitor_id=208.93.141.42.1341950825729761; optimizelySegments=%7B%22204509906%22%3A%22false%22%2C%22204862826%22%3A%22gc%22%2C%22204944106%22%3A%22referral%22%2C%22208084609%22%3A%22none%22%2C%22213359307%22%3A%22true%22%2C%22238599176%22%3A%22true%22%7D; optimizelyBuckets=%7B%22660620580%22%3A%22653241120%22%7D; __utma=91525829.1716294656.1374166828.1394055855.1394092491.579; __utmb=91525829.17.10.1394092491; __utmc=91525829; __utmz=91525829.1394042140.576.2.utmcsr=in-mg61.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch; session_id=2532b799b290d7d750b0eb95a3167583; company_last_accessed=d226248; last_accessed_app=findWorkHome
+
+
+
+f7cb079c6666c0a51c8a4f2c7a18c59b
+
+d226248
+
+Cookie:visitor_id=122.177.194.224.1374166802757526; optimizelyEndUserId=oeu1374166808147r0.8070591953583062; leaving_odesk_auto=1; fbm_121633185800=base_domain=.odesk.com; reportsAction=main; acced226248=184459; __g_u=143640724922061_5_0.05_1_5_1392702154466_0; DA[supmit]=3f5af05c4f8ebd3a36b41de489c0f6b6%2C0%2Cv7; sessionId=1393312180386; optimizelyCustomEvents=%7B%22oeu1374166808147r0.8070591953583062%22%3A%5B%22clicked_home_page_%5C%22log_in%5C%22%22%2C%22click_on_login%22%5D%7D; __g_c=a%3A0; applications_isMe=1; emailVerifiedNotification=1; emailVerified=1; mp_380f5e6a64db093fe56e1b33776a5afa_mixpanel=%7B%22distinct_id%22%3A%20%22122.17	7.194.224.1374166802757526%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22recognized%22%3A%20%22yes%22%2C%22Session%20%23%22%3A%202%2C%22Optimizely%20CO-FSU-Client%20Escape%20Link%20Direct%20Flow%22%3A%20%22w%2F%20Client%20Escape%22%7D; _mkto_trk=id:480-VRE-588&token:_mch-odesk.com-1393312182355-95825; __ar_v4=U5TO3O55FJEOTMQ6LLRG7H%3A20140227%3A3%7CCQEDEVZYOFD3LDY3DA4C2E%3A20140227%3A3%7CBH4WDBCWWJASRDFSPJ6ED5%3A20140227%3A3; console_user=supmit; recognized=1; qt_visitor_id=208.93.141.42.1341950825729761; mc_unread.supmit=archive%3D0%2Cdisputes%3D0%2Cinbox%3D6%2Cnotifications%3D0%2Csent%3D0%2Ctickets%3D0%2C; session_id=f7cb079c6666c0a51c8a4f2c7a18c59b; company_last_accessed=d226248; last_accessed_app=findWorkHome; optimizelySegments=%7B%22204509906%22%3A%22false%22%2C%22204862826%22%3A%22gc%22%2C%22204944106%22%3A%22referral%22%2C%22208084609%22%3A%22none%22%2C%22213359307%22%3A%22true%22%2C%22238599176%22%3A%22true%22%7D; optimizelyBuckets=%7B%22660620580%22%3A%22653241120%22%7D; __utma=91525829.1716294656.1374166828.1394092491.1394118519.580; __utmb=91525829.12.10.1394118519; __utmc=91525829; __utmz=91525829.1394042140.576.2.utmcsr=in-mg61.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch; optimizelyPendingLogEvents=%5B%22n%3Dengagement%26g%3D183169210%26u%3Doeu1374166808147r0.8070591953583062%26t%3D1394118702739%26f%3D303346134%2C352480354%2C545180981%2C549623028%2C561900218%2C568350353%2C632260587%2C639600264%2C651380974%2C656110396%2C660310105%2C660620580%22%5D
+
+odesk id: sherlock_holmes6
+passwd: spmprx13
+emailid: sherlock.holmes_69@ymail.com
+
+
+# Now, if formData['radio'] is not defined (or None), the page will have checkboxes, and multiple choices can be made.
+        #if not formData['radio']:
+        #    allCheckBoxes = soup.findAll("input", {'type' : 'checkbox'})

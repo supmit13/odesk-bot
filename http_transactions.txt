@@ -1,0 +1,315 @@
+First Name: lysander
+Last Name: stark
+email Id: lysander.stark@ymail.com
+username: lysander_stark
+password:spmprx13
+
+Login URL: https://www.odesk.com/login
+
+POST https://www.odesk.com/login
+
+Request Headers:
+----------------
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:en-US,en;q=0.8
+Cache-Control:max-age=0
+Connection:keep-alive
+Content-Length:2401
+Content-Type:application/x-www-form-urlencoded
+Cookie:visitor_id=122.177.194.224.1374166802757526; optimizelyEndUserId=oeu1374166808147r0.8070591953583062; leaving_odesk_auto=1; fbm_121633185800=base_domain=.odesk.com; reportsAction=main; acced226248=184459; __g_u=143640724922061_5_0.05_1_5_1392702154466_0; DA[supmit]=3f5af05c4f8ebd3a36b41de489c0f6b6%2C0%2Cv7; sessionId=1393312180386; _mkto_trk=id:480-VRE-588&token:_mch-odesk.com-1393312182355-95825; __ar_v4=%7CU5TO3O55FJEOTMQ6LLRG7H%3A20140227%3A1%7CCQEDEVZYOFD3LDY3DA4C2E%3A20140227%3A1%7CBH4WDBCWWJASRDFSPJ6ED5%3A20140227%3A1; optimizelyCustomEvents=%7B%22oeu1374166808147r0.8070591953583062%22%3A%5B%22clicked_home_page_%5C%22log_in%5C%22%22%2C%22click_on_login%22%5D%7D; __g_c=a%3A0; applications_isMe=1; mp_380f5e6a64db093fe56e1b33776a5afa_mixpanel=%7B%22distinct_id%22%3A%20%22122.177.194.224.1374166802757526%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22recognized%22%3A%20%22yes%22%2C%22Session%20%23%22%3A%202%2C%22Optimizely%20CO-FSU-Client%20Escape%20Link%20Direct%20Flow%22%3A%20%22w%2F%20Client%20Escape%22%7D; qt_visitor_id=123.63.144.1421394032548670796; mc_unread.lysander_stark=archive%3D0%2Cdisputes%3D0%2Cinbox%3D0%2Cnotifications%3D0%2Csent%3D0%2Ctickets%3D0%2C; emailVerifiedNotification=1; last_accessed_app=findWorkHome; emailVerified=1; company_last_accessed=d5489448; recognized=1; session_id=13c3f7ac0aef9353c1c394f5f075fc41; optimizelySegments=%7B%22204509906%22%3A%22false%22%2C%22204862826%22%3A%22gc%22%2C%22204944106%22%3A%22referral%22%2C%22208084609%22%3A%22none%22%2C%22213359307%22%3A%22true%22%2C%22238599176%22%3A%22true%22%7D; optimizelyBuckets=%7B%22660620580%22%3A%22653241120%22%7D; __utma=91525829.1716294656.1374166828.1394012817.1394031280.574; __utmb=91525829.12.10.1394031280; __utmc=91525829; __utmz=91525829.1374166828.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+Host:www.odesk.com
+Origin:https://www.odesk.com
+Referer:https://www.odesk.com/login
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+
+
+Response Headers:
+-----------------
+Cache-Control:no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Length:20
+Content-Type:text/html; charset=UTF-8
+Date:Wed, 05 Mar 2014 15:18:21 GMT
+Expires:Thu, 19 Nov 1981 08:52:00 GMT
+Location:https://www.odesk.com/
+Pragma:no-cache
+Server:nginx
+Set-Cookie:console_user=lysander_stark; path=/; domain=.odesk.com; secure; httponly
+Set-Cookie:csrf-token=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.odesk.com
+Set-Cookie:allocatedNavTestCell=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.odesk.com
+Set-Cookie:recognized=1; expires=Sun, 29-Jun-2014 09:05:01 GMT; path=/; domain=.odesk.com
+Set-Cookie:session_id=13c3f7ac0aef9353c1c394f5f075fc41; path=/; domain=.odesk.com; secure; HttpOnly
+Set-Cookie:console_login=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.odesk.com
+Strict-Transport-Security:max-age=604800
+Vary:Accept-Encoding
+
+Form Data:
+----------
+username:lysander_stark
+password:spmprx13
+remember_me:0
+ioBB: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
+
+==========================================================================================================================
+GET https://www.odesk.com/
+
+Request Headers:
+----------------
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:en-US,en;q=0.8
+Cache-Control:max-age=0
+Connection:keep-alive
+Cookie:visitor_id=122.177.194.224.1374166802757526; optimizelyEndUserId=oeu1374166808147r0.8070591953583062; leaving_odesk_auto=1; fbm_121633185800=base_domain=.odesk.com; reportsAction=main; acced226248=184459; __g_u=143640724922061_5_0.05_1_5_1392702154466_0; DA[supmit]=3f5af05c4f8ebd3a36b41de489c0f6b6%2C0%2Cv7; sessionId=1393312180386; _mkto_trk=id:480-VRE-588&token:_mch-odesk.com-1393312182355-95825; __ar_v4=%7CU5TO3O55FJEOTMQ6LLRG7H%3A20140227%3A1%7CCQEDEVZYOFD3LDY3DA4C2E%3A20140227%3A1%7CBH4WDBCWWJASRDFSPJ6ED5%3A20140227%3A1; optimizelyCustomEvents=%7B%22oeu1374166808147r0.8070591953583062%22%3A%5B%22clicked_home_page_%5C%22log_in%5C%22%22%2C%22click_on_login%22%5D%7D; __g_c=a%3A0; applications_isMe=1; mp_380f5e6a64db093fe56e1b33776a5afa_mixpanel=%7B%22distinct_id%22%3A%20%22122.177.194.224.1374166802757526%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22recognized%22%3A%20%22yes%22%2C%22Session%20%23%22%3A%202%2C%22Optimizely%20CO-FSU-Client%20Escape%20Link%20Direct%20Flow%22%3A%20%22w%2F%20Client%20Escape%22%7D; qt_visitor_id=123.63.144.1421394032548670796; mc_unread.lysander_stark=archive%3D0%2Cdisputes%3D0%2Cinbox%3D0%2Cnotifications%3D0%2Csent%3D0%2Ctickets%3D0%2C; emailVerifiedNotification=1; last_accessed_app=findWorkHome; emailVerified=1; company_last_accessed=d5489448; optimizelySegments=%7B%22204509906%22%3A%22false%22%2C%22204862826%22%3A%22gc%22%2C%22204944106%22%3A%22referral%22%2C%22208084609%22%3A%22none%22%2C%22213359307%22%3A%22true%22%2C%22238599176%22%3A%22true%22%7D; optimizelyBuckets=%7B%22660620580%22%3A%22653241120%22%7D; __utma=91525829.1716294656.1374166828.1394012817.1394031280.574; __utmb=91525829.12.10.1394031280; __utmc=91525829; __utmz=91525829.1374166828.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id=13c3f7ac0aef9353c1c394f5f075fc41; console_user=lysander_stark; recognized=1
+Host:www.odesk.com
+Referer:https://www.odesk.com/login
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+
+Response Headers:
+-----------------
+Cache-Control:no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Length:20
+Content-Type:text/html; charset=UTF-8
+Date:Wed, 05 Mar 2014 15:18:22 GMT
+Expires:Thu, 19 Nov 1981 08:52:00 GMT
+Location:/find-work-home/
+Pragma:no-cache
+Server:nginx
+Set-Cookie:session_id=13c3f7ac0aef9353c1c394f5f075fc41; path=/; domain=.odesk.com; secure; HttpOnly
+Set-Cookie:company_last_accessed=d5489448; expires=Fri, 04-Apr-2014 15:18:22 GMT; path=/; domain=.odesk.com
+Set-Cookie:company_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.odesk.com
+Strict-Transport-Security:max-age=604800
+Vary:Accept-Encoding
+
+============================================================================================================================
+
+GET https://www.odesk.com/find-work-home/
+
+Request Headers:
+----------------
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:en-US,en;q=0.8
+Cache-Control:max-age=0
+Connection:keep-alive
+Cookie:visitor_id=122.177.194.224.1374166802757526; optimizelyEndUserId=oeu1374166808147r0.8070591953583062; leaving_odesk_auto=1; fbm_121633185800=base_domain=.odesk.com; reportsAction=main; acced226248=184459; __g_u=143640724922061_5_0.05_1_5_1392702154466_0; DA[supmit]=3f5af05c4f8ebd3a36b41de489c0f6b6%2C0%2Cv7; sessionId=1393312180386; _mkto_trk=id:480-VRE-588&token:_mch-odesk.com-1393312182355-95825; __ar_v4=%7CU5TO3O55FJEOTMQ6LLRG7H%3A20140227%3A1%7CCQEDEVZYOFD3LDY3DA4C2E%3A20140227%3A1%7CBH4WDBCWWJASRDFSPJ6ED5%3A20140227%3A1; optimizelyCustomEvents=%7B%22oeu1374166808147r0.8070591953583062%22%3A%5B%22clicked_home_page_%5C%22log_in%5C%22%22%2C%22click_on_login%22%5D%7D; __g_c=a%3A0; applications_isMe=1; mp_380f5e6a64db093fe56e1b33776a5afa_mixpanel=%7B%22distinct_id%22%3A%20%22122.177.194.224.1374166802757526%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22recognized%22%3A%20%22yes%22%2C%22Session%20%23%22%3A%202%2C%22Optimizely%20CO-FSU-Client%20Escape%20Link%20Direct%20Flow%22%3A%20%22w%2F%20Client%20Escape%22%7D; qt_visitor_id=123.63.144.1421394032548670796; mc_unread.lysander_stark=archive%3D0%2Cdisputes%3D0%2Cinbox%3D0%2Cnotifications%3D0%2Csent%3D0%2Ctickets%3D0%2C; emailVerifiedNotification=1; last_accessed_app=findWorkHome; emailVerified=1; optimizelySegments=%7B%22204509906%22%3A%22false%22%2C%22204862826%22%3A%22gc%22%2C%22204944106%22%3A%22referral%22%2C%22208084609%22%3A%22none%22%2C%22213359307%22%3A%22true%22%2C%22238599176%22%3A%22true%22%7D; optimizelyBuckets=%7B%22660620580%22%3A%22653241120%22%7D; __utma=91525829.1716294656.1374166828.1394012817.1394031280.574; __utmb=91525829.12.10.1394031280; __utmc=91525829; __utmz=91525829.1374166828.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); console_user=lysander_stark; recognized=1; session_id=13c3f7ac0aef9353c1c394f5f075fc41; company_last_accessed=d5489448
+Host:www.odesk.com
+Referer:https://www.odesk.com/login
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+
+Response Headers:
+-----------------
+Cache-Control:no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Length:5914
+Content-Type:text/html; charset=UTF-8
+Date:Wed, 05 Mar 2014 15:18:24 GMT
+Expires:Thu, 19 Nov 1981 08:52:00 GMT
+Pragma:no-cache
+Server:nginx
+Set-Cookie:company_last_accessed=d5489448; expires=Fri, 04-Apr-2014 15:18:23 GMT; path=/; domain=.odesk.com
+Set-Cookie:company_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.odesk.com
+Set-Cookie:last_accessed_app=findWorkHome; expires=Fri, 04-Apr-2014 15:18:24 GMT; path=/; domain=.odesk.com
+Set-Cookie:session_id=13c3f7ac0aef9353c1c394f5f075fc41; path=/; domain=.odesk.com; secure; HttpOnly
+Strict-Transport-Security:max-age=604800
+Vary:Accept-Encoding
+X-Frame-Options:sameorigin
+
+============================================================================================================================
+
+Result: User Logged In
+
+
+emailid=you_know_who_13@rocketmail.com
+emailid=johnferrier80@rocketmail.com
+emailid=jeffhope70@yahoo.in
+emailid=sherlock.holmes_69@ymail.com
+emailid=profmoriarty@rocketmail.com
+emailid=lysander.stark@ymail.com
+emailid=grimsbyroylott@yahoo.com
+emailid=col_smoran@ymail.com
+emailid=tre_hope@rocketmail.com
+emailpasswd=spmprx13
+
+============================================================================================================================
+
+GET https://www.odesk.com/tests/submit/?id=472
+
+Request Headers:
+----------------
+GET /tests/submit/?id=472 HTTP/1.1
+Host: www.odesk.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+Referer: https://www.odesk.com/tests/472?pos=110
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: visitor_id=122.177.194.224.1374166802757526; optimizelyEndUserId=oeu1374166808147r0.8070591953583062; leaving_odesk_auto=1; fbm_121633185800=base_domain=.odesk.com; reportsAction=main; __g_u=143640724922061_5_0.05_1_5_1392702154466_0; sessionId=1393312180386; optimizelyCustomEvents=%7B%22oeu1374166808147r0.8070591953583062%22%3A%5B%22clicked_home_page_%5C%22log_in%5C%22%22%2C%22click_on_login%22%5D%7D; __g_c=a%3A0; applications_isMe=1; _mkto_trk=id:480-VRE-588&token:_mch-odesk.com-1393312182355-95825; __ar_v4=U5TO3O55FJEOTMQ6LLRG7H%3A20140227%3A3%7CCQEDEVZYOFD3LDY3DA4C2E%3A20140227%3A3%7CBH4WDBCWWJASRDFSPJ6ED5%3A20140227%3A3; mp_380f5e6a64db093fe56e1b33776a5afa_mixpanel=%7B%22distinct_id%22%3A%20%22122.177.194.224.1374166802757526%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22recognized%22%3A%20%22yes%22%2C%22Session%20%23%22%3A%202%2C%22Optimizely%20CO-FSU-Client%20Escape%20Link%20Direct%20Flow%22%3A%20%22w%2F%20Client%20Escape%22%7D; emailVerifiedNotification=1; console_user=supmit; recognized=1; qt_visitor_id=208.93.141.42.1341950825729761; DA[supmit]=3f5af05c4f8ebd3a36b41de489c0f6b6%2C0%2Cv7; acced226248=184459; session_id=c5c41a07797abe659a29ead7720a45e2; company_last_accessed=d226248; last_accessed_app=findWorkHome; optimizelySegments=%7B%22204509906%22%3A%22false%22%2C%22204862826%22%3A%22gc%22%2C%22204944106%22%3A%22referral%22%2C%22208084609%22%3A%22none%22%2C%22213359307%22%3A%22true%22%2C%22238599176%22%3A%22true%22%7D; optimizelyBuckets=%7B%22660620580%22%3A%22653241120%22%7D; __utma=91525829.1716294656.1374166828.1394470876.1394479104.592; __utmb=91525829.11.10.1394479104; __utmc=91525829; __utmz=91525829.1394042140.576.2.utmcsr=in-mg61.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch; mc_unread.supmit=notifications%3D0%2Cinbox%3D0%2Ctickets%3D0%2Cdisputes%3D0%2C; optimizelyPendingLogEvents=%5B%22n%3Dengagement%26g%3D183169210%26u%3Doeu1374166808147r0.8070591953583062%26t%3D1394481353388%26f%3D303346134%2C352480354%2C545180981%2C549623028%2C561900218%2C568350353%2C632260587%2C639600264%2C651380974%2C656110396%2C660310105%2C660620580%22%5D
+
+Response Headers:
+-----------------
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+Content-Length: 20
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: https://odesk.expertrating.com/?t=t2%2BoRaeAjO6sKlNpvI2MNpghQTek5rqZTep0ZxowlIdpcY2xMS67ufyMJRdkltWjmM7TAnHHKApPdgbImbAdHKKRJ1t%2BPCafcewiX9zMFi9O4mFvb%2FhLIsvMQKD5fgb7sDpfLBhR3iNPSaTKXesRJg%3D%3D
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=604800
+Date: Mon, 10 Mar 2014 19:55:53 GMT
+Connection: keep-alive
+Set-Cookie: session_id=c5c41a07797abe659a29ead7720a45e2; path=/; domain=.odesk.com; secure; HttpOnly
+Set-Cookie: company_last_accessed=d226248; expires=Wed, 09-Apr-2014 19:55:52 GMT; path=/; domain=.odesk.com
+Set-Cookie: company_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.odesk.com
+
+============================================================================================================================
+GET https://odesk.expertrating.com/?t=t2%2BoRaeAjO6sKlNpvI2MNpghQTek5rqZTep0ZxowlIdpcY2xMS67ufyMJRdkltWjmM7TAnHHKApPdgbImbAdHKKRJ1t%2BPCafcewiX9zMFi9O4mFvb%2FhLIsvMQKD5fgb7sDpfLBhR3iNPSaTKXesRJg%3D%3D
+
+Request Headers:
+----------------
+GET /?t=t2%2BoRaeAjO6sKlNpvI2MNpghQTek5rqZTep0ZxowlIdpcY2xMS67ufyMJRdkltWjmM7TAnHHKApPdgbImbAdHKKRJ1t%2BPCafcewiX9zMFi9O4mFvb%2FhLIsvMQKD5fgb7sDpfLBhR3iNPSaTKXesRJg%3D%3D HTTP/1.1
+Host: odesk.expertrating.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+Referer: https://www.odesk.com/tests/472?pos=110
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASPSESSIONIDASDTTTBT=HJPKKOMCLEPABAOHPJIHOFAG; __utma=146195306.1345311585.1394480799.1394480799.1394480799.1; __utmb=146195306.1.10.1394480799; __utmc=146195306; __utmz=146195306.1394480799.1.1.utmcsr=odesk.com|utmccn=(referral)|utmcmd=referral|utmcct=/tests/472
+
+
+Response Headers:
+-----------------
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 10 Mar 2014 19:55:55 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Content-Type: text/html; Charset=UTF-8
+Cache-control: private
+
+
+
+Request URL:https://odesk.expertrating.com/?t=ZEdRsMOeOAf%2Fa5ajtpZbRuHTMT%2FaUJneKOpGn8%2FCFe034lQ94AUZxtiExb8lX6ix1f9T0PBcuIk60crr4x02rbafnGkYNsKKgrubFDX2o2cH%2FNYvIH8LorO7Sgs6oRDqyXZtOHvnD%2BfyXVnPr8j3Apma0R8nkbwF
+
+
+Get the next question:
+----------------------
+
+POST https://odesk.expertrating.com/odeskexamnojsx.asp
+
+Request Headers:
+----------------
+POST /odeskexamnojsx.asp HTTP/1.1
+Host: odesk.expertrating.com
+Connection: keep-alive
+Content-Length: 762
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: https://odesk.expertrating.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: https://odesk.expertrating.com/odeskexamnojsx.asp
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASPSESSIONIDASDTTTBT=HJPKKOMCLEPABAOHPJIHOFAG; __utma=146195306.1345311585.1394480799.1394517932.1394520703.5; __utmb=146195306.4.10.1394520703; __utmc=146195306; __utmz=146195306.1394517932.4.4.utmcsr=odesk.com|utmccn=(referral)|utmcmd=referral|utmcct=/tests/587
+
+Response Headers:
+-----------------
+HTTP/1.1 200 OK
+Date: Tue, 11 Mar 2014 07:11:47 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Pragma: no-cache
+Content-Length: 11375
+Content-Type: text/html
+Expires: Tue, 11 Mar 2014 07:11:46 GMT
+Cache-control: no-cache
+
+Post Data:
+----------
+qtype:R
+nxtprvs:
+radio:b
+tak:non
+ii:L3kIM+avXdbISFKQ7hhq4DPzxFAkoRwgscFQgPOFC47BjPQntiYjTOVr9qbD8L6miW3scd/oTIHVWNfABoCHBqnstunUrpQR4dMxP9pQmd4Kz4g2wdFQyiOgPQe6L2RBYc5+vREhw1zjmTLiVZ8MVUXBiG4hd1jeghjywq8Ra0OByW/P6K/NOwOhZJK6nOtdjI94t2Eamf/zF2pUvyqQU7MEgG4myR0SrhmdzVKEznh51zHdJ7WchaAZx4eCHbZIAP9wTkEt64a9tZYACQ71dTFIsb34PnfHYqhuXumnhzcScyRyiQnDAlqlxcJJPbAqLT/uF7bZO4zrIpFl6XxrANEw/pIQ0lfrwJswZmyysirMIL6WHKtLStQEwe31rnW2w7iBg19N7si7t/+FUj71rbE0cVanxNypbROORGysw4nXzXN9g/c8frL58Ah0OBBfADxw4nxSQ5teGOn8uNkKPhEiVVuwt5CUpf2HrXRUlXrpbH7M1K4K5s2PDRFJJQtTjKw9xOOULcu4zLhmSpk/bZoQuy5tSrZ4wFVdFR7w4yTOptZV2/m+KPGAgni4ffqMMu8KhYwa9qbkVQLvmhwMEuNWLZBxodul0Jl49eRllUVIpOkoUS/fKOGllZps5RybcvURAekWL1tr1dpAkaoK33VnC2f98gHFFPMoGt1xVn0=
+next:Next
+
+
+
+===============================================================
+Traceback (most recent call last):
+  File "odesk.py", line 775, in loadTest
+    self.bot.testObject.questionAnswers[questionInfo[1]] = [ questionInfo[2], questionInfo[3][1], questionInfo[3][0]]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+
+
+POST https://odesk.expertrating.com/odeskexamnojsxd.asp
+
+Request Headers:
+----------------
+POST /odeskexamnojsxd.asp HTTP/1.1
+Host: odesk.expertrating.com
+Connection: keep-alive
+Content-Length: 769
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: https://odesk.expertrating.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: https://odesk.expertrating.com/odeskexamnojsxd.asp
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASPSESSIONIDASDTTTBT=GBLJLOMCBHNHGMLPNNDPMDPL; __utma=146195306.1345311585.1394480799.1394740954.1394787100.14; __utmb=146195306.24.10.1394787100; __utmc=146195306; __utmz=146195306.1394787100.14.9.utmcsr=odesk.com|utmccn=(referral)|utmcmd=referral|utmcct=/tests/506
+
+
+
+Response Headers:
+-----------------
+HTTP/1.1 200 OK
+Date: Fri, 14 Mar 2014 09:06:26 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Pragma: no-cache
+Content-Length: 21323
+Content-Type: text/html
+Expires: Fri, 14 Mar 2014 09:06:25 GMT
+Cache-control: no-cache
+
+POST Data:
+----------
+qtype:C
+nxtprvs:
+b:b
+d:d
+tak:non
+ii:L3kIM+avXdbXb2B3i6aTCqdBUIXr/M0TeeQ0d1pOMpCTr1XqwrLSRTQ3Gn6DMg9oWWL0ZNNg1fDnDI+/EWVu5OCvoY9cIGCKfOpbLZ50WWed59l6PAYaxIuqEyweLiJFZaLiRxAtS8fSlp3DrkHTogCF5K113aHF10ZuMOv6XeVQyycfB5xbwvYE/P7UmaY+91A5b0HVOcm2n5xpGDbCijIwv/+fjj5oTRM9+xLZX1KDKrq4JBQ3P1YaFSg74K7HBL4emhsOVucxW5PSlX+HA7kWh0lOFTzP+5a3G8OqSFL579E8b7/Y3w/TB76iDoFexC0WrBojZtoPi7670V9tGJdFlg6CTFXxzNbfmVHjZsWnI6SrgYzDykYpTRNh+KXO2zc/6NjCptk65Cm829+vrts3P+jYwqbZAswwxItla7Gcz5x3e2DDyKeQMJn4KDEEql9RqA+lzxe++cKFz3/dXuomIo9sK/pU4R3ezPlfORqHCeTE+1vgPHKirTCZydypiYeo6QkH75gosSkD3RTAYWXtjwu6kW7t8sSZfsN0iG3uOHzJz6XQYBkDYu1FXJTqEnMkcokJwwK/nHvmbpbEt3Ps2Jhar87rroJlZZXMGErtg/7AvlQTWFXAJQj7KvBHzRDlrCG/G0g=
+next:Next
+hdnjsautosubmit:
+
+
+
+Perl 5 test
+
+Traceback (most recent call last):
+  File "odesk_v1_1.py", line 1164, in loadTest
+    self.submitAnswer()
+  File "odesk_v1_1.py", line 1012, in submitAnswer
+    questionInfo = self.bot.getNextQuestion(self.questionInfo)
+  File "odesk_v1_1.py", line 721, in getNextQuestion
+    self._addToDB(questionInfo)
+  File "odesk_v1_1.py", line 739, in _addToDB
+    if re.search(re.compile("&", re.MULTILINE|re.DOTALL), answer):
+  File "C:\Python27\lib\re.py", line 142, in search
+    return _compile(pattern, flags).search(string)
+TypeError: expected string or buffer

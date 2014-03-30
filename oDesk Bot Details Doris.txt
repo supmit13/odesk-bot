@@ -1,0 +1,54 @@
+oDesk Bot has 5 Major Functions:
+
+1) Account Creation
+2) Profile Completion/Editing
+3) Tests Completion
+4) Bidding
+5) Reminders
+
+1) Account Creation
+	- If captha is there, fill it and complete account creation
+	- Email Confiration (we have setup all emails of webmails to go to a common gmail account, so all confirmation goes there)
+	- Database of accounts created (in excel or db format, it can provide all accounts with all details)
+	- The database should be usable with other functions of the oDesk bot
+2) Profit Completion/Editing
+	- Fill the following (quantity depends - usually one)
+		- Description
+		- Èducation
+		- Employment History
+		- English Self Rating
+		- Profile Access (Public)
+		- Profile Title, etc.
+		- Portfolio
+		- Video
+	- Already filled, we need to be able to edit or add (description is edit, education can be add or edit)
+3) Tests Completion
+	- List of tests to select from
+	- Each test has its own excel/database with questions/answers which is created when we first do the test manually within the bot, answers are stored with score of the test (as quality of database)
+	- Each test if it is in database, it will answer and go to next, but if it is not there, it will give sound or blink for us to answer it and when we answer, it adds it to database
+	- So this way, over time full question database will be with us
+	- Multi threading of "Different account, same test" or "same account, different test" can be set, so only window appears for us, when a test is not in database. If it is there, it does it all by itself
+	- Random time (within 1 min) it can choose if RANDOM TIME option is selected, then it can for every question, take a random time to submit. BUT, it will choose answer and wait to submit, if answer is not in database, it will beep, get answer, then wait to submit. So time does not lapse
+	- Question Order, Answer choise order may be jumbbled, it will manag
+	- Time between answers, if not random, can be set by us as well, within lapse time of 1 min
+	- No Submit Option - If a database of answers are having bad scores, this option will be used to reanswer the questions, so it will choose answer, but not submit - we will submit or edit and submit. Based on scrore, best scoring set of answers will be saved to database
+	- Is there a way to make this database be common to people who are using this software? Like 2-3 staffs? But internally in our own server? Without conflicts? Or is it manual? 
+	- Make Mistakes - If we get 100% correct, we may set 2% error ratio, where it will choose 2% wrong answers. What ever % we set, it will get so many wrong answers even if it is correct in database.
+4) Bidding
+	- Job selection criteria canbe choosen from within the bot
+	- Since many bidders will use it in team, a common server maintained list of different jobs to which we applied has to be maintained. So they don't bid on same twice.
+	- Scrapping fields for job post customization (like title, project average budget, budget, total spent, etc. criteria to fill within the job post in place holders like [title], etc.
+	- We can set number of time we can bid to same job and then it can allow duplicate bids on some criteria like: Same Agency Account or Different Agency Account (so based on that, it will show to them), and based on criteria as well (only to top rated projects, etc.)
+5) Reminders
+	- Send reminders to messages/job applications (based on template we fill)
+	- Send regular reminders as scheduled in the bot with templates we feed
+
+
+Common Features:
+	- Multi threading to speedup the process
+ 	- Windows 7/8 & Ubuntu 12/13 it has to work
+	- Database has to be in sync, so it makes it easy for all bots to access (a linux server with mysql can be provided for all instances of bots to access and update at same time)
+
+Priority of delivery of each: 3, 4, 2, 1, 5
+
+This is the basic requirements document. Please ask me questions to detail this or if you find any operational difficulty, to sort it as well. Also, other basic features you see essential, you can add it.
